@@ -1,13 +1,88 @@
-body {
+:root {
+  --dark-shade0: #171d1d;
+
+  --dark-shade1: #313939;
+
+  --dark-shade2: #4b5454;
+
+  --dark-shade3: #657070;
+
+  --dark-shade4: #7f8b8b;
+
+  --dark-shade5: #99a7a7;
+
+  --dark-shade6: #b3c2c2;
+
+  --dark-shade7: #cddede;
+
+  --dark-accent0: #f18cb1;
+
+  --dark-accent1: #b86675;
+
+  --dark-accent2: #c57b67;
+
+  --dark-accent3: #00acbd;
+
+  --dark-accent4: #208490;
+
+  --dark-accent5: #1a9ba6;
+
+  --dark-accent6: #32a0ac;
+
+  --dark-accent7: #fca188;
+
+  --light-shade0: #f8fdfe;
+
+  --light-shade1: #d5dee0;
+
+  --light-shade2: #b3c0c2;
+
+  --light-shade3: #90a1a4;
+
+  --light-shade4: #6d8287;
+
+  --light-shade5: #4a6369;
+
+  --light-shade6: #28454b;
+
+  --light-shade7: #05262d;
+
+  --light-accent0: #d75971;
+
+  --light-accent1: #cd2455;
+
+  --light-accent2: #aa582d;
+
+  --light-accent3: #1d7e66;
+
+  --light-accent4: #14808c;
+
+  --light-accent5: #0e7481;
+
+  --light-accent6: #4797a7;
+
+  --light-accent7: #c87d4f;
+}
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+p {
+  text-indent: 0.75rem;
 }
